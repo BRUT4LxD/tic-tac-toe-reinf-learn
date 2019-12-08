@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Game Page";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+
+            <!--Game Title-->
+            <div class="row text-center game_title_container">
+                <div class="col">
+                    <br>
+                    Tic Tac Toe Game
+                </div>
+            </div>
+
+            <br>
+
+            <div class="first-page-container">
+
+                <!--Choose algorithm-->
+                <div class="row text-center choose-algorithm">
+                    <div class="col">
+                        <div class="list-group algorithm-list" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active first-algorithm" data-toggle="list" href="#"
+                               role="tab" aria-controls="home">Easy</a>
+                            <a class="list-group-item list-group-item-action second-algorithm" data-toggle="list" href="#"
+                               role="tab"
+                               aria-controls="profile">Medium</a>
+                            <a class="list-group-item list-gro
+                               
+                               up-item-action third-algorithm" data-toggle="list" href="#"
+                               role="tab"
+                               aria-controls="messages">Hard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Choose sign-->
+                <div class="row text-center choose_sign_container">
+                    <div class="col">
+                        <span class="x">X</span>
+                        or
+                        <span class="o">O</span>
+                        ?
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Board-->
+            <div class="row text-center">
+                <div class="col">
+                    <div class="board_container">
+                        <!--<table class="center board">-->
+                        <!--<tr>-->
+                        <!--<td class="cell_1"></td>-->
+                        <!--<td class="cell_2"></td>-->
+                        <!--<td class="cell_3"></td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td class="cell_4"></td>-->
+                        <!--<td class="cell_5"></td>-->
+                        <!--<td class="cell_6"></td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                        <!--<td class="cell_7"></td>-->
+                        <!--<td class="cell_8"></td>-->
+                        <!--<td class="cell_9"></td>-->
+                        <!--</tr>-->
+                        <!--</table>-->
+                    </div>
+                </div>
+            </div>
+
+            <!--End Screen-->
+            <div class="row text-center end_screen_container">
+                <!--<div class="col">-->
+                <!--<div class="winner">Artificial Intelligence Wins!</div>-->
+                <!--<br>-->
+                <!--<button type="button" class="btn btn-secondary btn-lg another_round">Another round?</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
